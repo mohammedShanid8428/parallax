@@ -18,7 +18,7 @@ header{
   left: 0;
   width: 99%;
   padding: 10px ;
-  background-color: red;
+  background-color: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,4 +85,27 @@ header{
   left: 0;
   width: 99%;
   pointer-events: none;
+}
+
+.parallax img#gate-left {
+  transform: translate(-282px);
+}
+.parallax img#gate-right{
+  transform: translate(305px);
+}
+.sec{
+  position: relative;
+  background-color: #020912;
+  padding: 40px;
+}
+.sec h2{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.sec p{
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+  text-align: justify;
 }
